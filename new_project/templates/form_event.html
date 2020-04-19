@@ -1,0 +1,498 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Forms</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="{% static 'css/font-face.css" rel="stylesheet' %}" media="all">
+    <link href="{% static 'vendor/font-awesome-5/css/fontawesome-all.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'vendor/font-awesome-4.7/css/font-awesome.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'vendor/mdi-font/css/material-design-iconic-font.min.css' %}" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="{% static 'vendor/bootstrap-4.1/bootstrap.min.css' %}" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="{% static 'vendor/animsition/animsition.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'vendor/wow/animate.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'vendor/slick/slick.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'vendor/select2/select2.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'vendor/perfect-scrollbar/perfect-scrollbar.css' %}" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="{% static 'css/theme.css' %}" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            <img src="#" alt="CoolAdmin" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="index.html">Dashboard 1</a>
+                                </li>
+                                <li>
+                                    <a href="index2.html">Dashboard 2</a>
+                                </li>
+                                <li>
+                                    <a href="index3.html">Dashboard 3</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">Dashboard 4</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="chart.html">
+                                <i class="fas fa-chart-bar"></i>Charts</a>
+                        </li>
+                        <li>
+                            <a href="table.html">
+                                <i class="fas fa-table"></i>Tables</a>
+                        </li>
+                        <li>
+                            <a href="form.html">
+                                <i class="far fa-check-square"></i>Forms</a>
+                        </li>
+                       
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-copy"></i>Pages</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="login.html">Login</a>
+                                </li>
+                                <li>
+                                    <a href="register.html">Register</a>
+                                </li>
+                                <li>
+                                    <a href="forget-pass.html">Forget Password</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-desktop"></i>UI Elements</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="button.html">Button</a>
+                                </li>
+                                <li>
+                                    <a href="badge.html">Badges</a>
+                                </li>
+                                <li>
+                                    <a href="tab.html">Tabs</a>
+                                </li>
+                                <li>
+                                    <a href="card.html">Cards</a>
+                                </li>
+                                <li>
+                                    <a href="alert.html">Alerts</a>
+                                </li>
+                                <li>
+                                    <a href="progress-bar.html">Progress Bars</a>
+                                </li>
+                                <li>
+                                    <a href="modal.html">Modals</a>
+                                </li>
+                                <li>
+                                    <a href="switch.html">Switchs</a>
+                                </li>
+                                <li>
+                                    <a href="grid.html">Grids</a>
+                                </li>
+                                <li>
+                                    <a href="fontawesome.html">Fontawesome Icon</a>
+                                </li>
+                                <li>
+                                    <a href="typo.html">Typography</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- END HEADER MOBILE-->
+
+        
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container" style="padding-left: 100px">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop" style="left:0px;">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" action="" method="POST">
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <button class="au-btn--submit" type="submit">
+                                    <i class="zmdi zmdi-search"></i>
+                                </button>
+                            </form>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img src="{% static 'images/icon/avatar-01.jpg' %}" alt="John Doe" />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">john doe</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="{% static 'images/icon/avatar-01.jpg' %}" alt="John Doe" />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">john doe</a>
+                                                    </h5>
+                                                    <span class="email">johndoe@example.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-account"></i>Account</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-settings"></i>Setting</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="#">
+                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-11" style="padding-left: 100px;">
+                                <form  action="eve_register" method="POST" enctype="multipart/form-data">
+                                {% csrf_token %}
+                                    <div class="card">
+                                    <div class="card-header"><strong>Add Event </strong> from</div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h3 class="text-center title-2">New Event</h3>
+                                        </div>
+                                       <hr>
+                                        <div>
+                                            <div class="form-group is.valid">
+                                                <label for="cc-payment" class="control-label mb-1">Give a name to your event:</label>
+                                                <input id="cc-pament" name="event_name" type="text" class="form-control" aria-required="true" aria-invalid="false" placeholder="Event name..." required>
+                                            </div>
+                                            <div class="card-title">
+                                                <h3 class="text-center title-2">Select Event Type</h3>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col-4 col-md-4">
+                                                    <select name="category" id="select" class="form-control" required >
+                                                        <option value="0" disabled selected>Select Event</option>
+                                                    {% for category in event_category %}
+                                                        <option value="{{category.category_name}}">{{category.category_name}}</option>
+                                                    {% endfor %}
+                                                    </select>
+                                                </div>
+                                                <div class="col-4 col-md-4">
+                                                    <select name="sub_category" id="select" class="form-control">
+                                                        <option value="0" disabled selected>Select Sub-event</option>
+                                                        {% for sub_category in event_sub_category %}
+                                                        <option value="{{sub_category.event_sub_category_name}}">{{sub_category.event_sub_category_name}}</option>
+                                                        {% endfor %}
+                                                    </select>
+                                                </div>
+                                                <div class="col-4 col-md-4">
+                                                    <input type="text" name="select" id="select" class="form-control"></input>
+                                                </div>
+                                            </div>
+
+                                            <!--Add Loaction for the event-->
+                                            
+                                            <div class="card-title">
+                                                <h3 class="text-center title-2">Add Loaction</h3>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col-4 col-md-4">
+                                                    <select name="country id="select" class="form-control">
+                                                        <option value="0"disabled selected>Select Country</option>
+                                                        {% for cont in country %}
+                                                        <option value="{{cont.country_name}}">{{cont.country_name}}</option>
+                                                        {% endfor %}    
+                                                    </select>
+                                                </div>
+                                                <div class="col-4 col-md-4">
+                                                    <select name="state" id="select" class="form-control">
+                                                        <option value="0" disabled selected>Select State</option>
+                                                        {% for sta in state %}
+                                                        <option value="{{sta.state_name}}">{{sta.state_name}}</option>
+                                                        {% endfor %}
+                                                    </select>
+                                                </div>
+                                                <div class="col-4 col-md-4">
+                                                    <select name="city" id="select" class="form-control">
+                                                        <option value="0" disabled selected>Select City</option>
+                                                        {% for cit in city %}
+                                                        <option value="{{cit.city_name}}">{{cit.city_name}}</option>
+                                                        {% endfor %}
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col col-md-1">
+                                                    <label for="textarea-input" class=" form-control-label">Event address:</label>
+                                                </div>
+                                                <div class="col-12 col-md-12">
+                                                    <textarea name="address" id="textarea-input" rows="4" placeholder="Get your full address..." class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row" id="pay">
+                                                <div class="col-4">
+                                                    <div class="form-group">
+                                                        <label for="cc-exp" class="control-label mb-1">Postal code:</label>
+                                                        <input id="cc-exp" name="pin_code" type="tel" class="form-control cc-exp" value="" data-val="true" data-val-required="Please enter the card postal code"
+                                                            data-val-cc-exp="Please enter a valid month and year" placeholder="eg.20XXX1"
+                                                            autocomplete="cc-exp">
+                                                        <span class="help-block" data-valmsg-for="cc-exp" data-valmsg-replace="true"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-8">
+                                                    <label for="x_card_code" class="control-label mb-1">land mark :</label>
+                                                    <div class="input-group">
+                                                        <input id="x_card_code" name="landmark" type="tel" class="form-control cc-cvc" value="" data-val="true" data-val-required="Please enter the security code"
+                                                            data-val-cc-cvc="Please enter a valid security code" autocomplete="off">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          <!--date picker-->  
+                                                <div style="box-shadow: black;">
+                                                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                                    <label class="special-label">Event Start date:</label>
+                                                     <input type="date" name="st_date" id="month" class="date-picker-button">
+                                                     
+                                                </div>
+                                            </div>
+                                           
+                                                <div class="col-4 col-md-4">
+                                                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                                    <label class="special-label">Event End date:</label>
+                                                     <input type="time" name="st_time" id="month" class="date-picker-button date-picker-input">
+                                                </div>
+                                            
+                                            <div class="col-4 col-md-4">
+                                                <div style="box-shadow: black;">
+                                                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                                    <label class="special-label">Event End date:</label>
+                                                     <input type="date" name="end_date" id="month" class="date-picker-button date-picker-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-4">
+                                                <div class="form-holder form-holder-2">
+                                                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                                    <label class="special-label">Event End date:</label>
+                                                     <input type="time" name="end_time" id="month" class="date-picker-button date-picker-input">
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row form-group">
+                                                <div class="col col-md-12">
+                                                    <label for="textarea-input" class=" form-control-label">Describe your event as best you can:</label>
+                                                </div>
+                                                <div class="col-12 col-md-12">
+                                                    <textarea name="description" id="textarea-input" rows="4" placeholder="Content..." class="form-control"></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="row form-group">
+                                                <div class="col col-md-8">
+                                                    <div class="col col-md-12">
+                                                        <label for="textarea-input" class=" form-control-label">Add Event Image:</label>
+                                                    </div>
+                                                    <div class="custom-file">
+                                                         <input type="file" class="custom-file-input" id="validatedCustomFile" name="image" required>
+                                                        <label class="custom-file-label" for="validatedCustomFile" describedby="inputGroupFileAddon01">Choose file..</label>
+                                                        <div class="invalid-feedback">Example invalid custom file feedback</div>
+                                                      </div>
+                                                    </div>
+                                            </div>
+
+                                            <!--radio buttons-->
+
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label class=" form-control-label">Event Payment Type:</label>
+                                                </div>
+                                                <div class="col col-md-6">
+                                                    <div class="form-check-inline form-check">
+                                                        <label for="inline-radio1" class="form-check-label" style="padding-right: 200px;">
+                                                            <input type="radio" id="inline-radio1" name="pay_type" value="option1" class="form-check-input ">FREE</br>
+                                                        </label>
+                                                        </div>
+                                                        <label for="inline-radio2" class="form-check-label ">
+                                                            <input type="radio" id="inline-radio2" name="inline-radios" value="option2" class="form-check-input">PAID
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-6">
+                                                <div style="box-shadow: black;">
+                                                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                                    <label class="special-label">last date for Bookings:</label>
+                                                     <input type="date" name="last_datebooking" id="month" class="date-picker-button date-picker-input">
+                                                </div>
+                                            </br>
+                                            </div>
+                                            <div class="card-title">
+                                                <h3 class="text-center title-2">Social links :</h3>
+                                            </div>
+                                           <hr>
+
+
+                                            <div class="form-group is.valid col-12">
+                                                <label for="cc-payment" class="control-label mb-1">Facebook link:</label>
+                                                <input id="cc-pament" name="facebook" type="text" class="form-control" aria-required="true" aria-invalid="false" placeholder="link..">
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <label for="cc-number" class="control-label mb-1">Youtube link:</label>
+                                                <input id="cc-number" name="youtube" type="text" class="form-control cc-number identified visa" value="" data-val="true"
+                                                    data-val-required="Please enter the card number" data-val-cc-number="Please enter a valid card number"
+                                                    autocomplete="cc-number" placeholder="link..">
+                                                <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                            </div> 
+                                            <div class="form-group has-success col-12">
+                                                <label for="cc-name" class="control-label mb-1">Instagram link:</label>
+                                                <input id="cc-name" name="insta" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card"
+                                                    autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name-error" placeholder="link..">
+                                                <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <label for="cc-number" class="control-label mb-1">Twitter link:</label>
+                                                <input id="cc-number" name="twitter" type="tel" class="form-control cc-number identified visa" value="" data-val="true"
+                                                    data-val-required="Please enter the card number" data-val-cc-number="Please enter a valid card number"
+                                                    autocomplete="cc-number" placeholder="link..">
+                                                <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                            </div> 
+
+                                               
+                                            <div>
+                                                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block col-12">
+                                                    <i class="fa fa-rocket"></i>&nbsp;
+                                                    <span id="payment-button-amount">Submit Event</span>
+                                                    <span id="payment-button-sending" style="display:none;">Sending…</span>
+                                                </button>
+                                            </div>
+                                            <div>
+                                            </br>
+                                            </div>
+                                            <div>
+                                                <a id="payment-button" class="btn btn-lg btn-info btn-block col-12" style="background-color: red;" href="all_event ">
+                                                    <i class="fa fa-lock fa-lg"></i>&nbsp;
+                                                    <span id="payment-button-amount">Cancel</span>
+                                                    <span id="payment-button-sending" style="display:none;">Sending…</span>
+                                                </a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </form>
+                        </div> 
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p>A SLICA Project made by Ved, Group no.16, SEM-VI ..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Jquery JS-->
+    <script src="{% static 'vendor/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js' %}"></script>
+    <!-- Bootstrap JS-->
+    <script src="{% static 'vendor/bootstrap-4.1/popper.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap-4.1/bootstrap.min.js' %}"></script>
+    <!-- Vendor JS       -->
+    <script src="{% static 'vendor/slick/slick.min.js' %}">
+    </script>
+    <script src="{% static 'vendor/wow/wow.min.js' %}"></script>
+    <script src="{% static 'vendor/animsition/animsition.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap-progressbar/bootstrap-progressbar.min.js' %}">
+    </script>
+    <script src="{% static 'vendor/counter-up/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'vendor/counter-up/jquery.counterup.min.js' %}">
+    </script>
+    <script src="{% static 'vendor/circle-progress/circle-progress.min.js' %}"></script>
+    <script src="{% static 'vendor/perfect-scrollbar/perfect-scrollbar.js' %}"></script>
+    <script src="{% static 'vendor/chartjs/Chart.bundle.min.js' %}"></script>
+    <script src="{% static 'vendor/select2/select2.min.js' %}">
+    </script>
+
+    <!-- Main JS-->
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/daterangepicker.js' %}"></script>
+
+</body>
+
+</html>
+<!-- end document-->
